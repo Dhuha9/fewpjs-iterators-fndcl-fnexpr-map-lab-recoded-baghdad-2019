@@ -17,5 +17,6 @@ const titleCased = () => {
        splitStrArray[i] = splitStrArray[i].charAt(0).toUpperCase() + splitStrArray[i].substring(1);     
    }
    tutorials= splitStrArray.join(' '); 
+   tutorials.map()
   return tutorials;
 };
