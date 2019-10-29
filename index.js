@@ -12,6 +12,5 @@ let tutorials = [
 ];
 
 const titleCased = () => {
-
-  return tutorials;
+  return tutorials.splite(" ").;
 };
