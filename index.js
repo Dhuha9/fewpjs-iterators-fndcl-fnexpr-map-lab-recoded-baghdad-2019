@@ -1,4 +1,4 @@
-const tutorials = [
+let tutorials = [
   'what does the this keyword mean?',
   'What is the Contutorialuctor OO pattern?',
   'implementing Blockchain Web API',
@@ -17,5 +17,5 @@ const titleCased = () => {
        splitStrArray[i] = splitStrArray[i].charAt(0).toUpperCase() + splitStrArray[i].substring(1);     
    }
    tutorials= splitStrArray.join(' '); 
-  return tutorials
-}
+  return tutorials;
+};
